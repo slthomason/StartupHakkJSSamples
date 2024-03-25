@@ -1,0 +1,41 @@
+Reference: https://medium.com/p/8170954a5abe
+
+Alright So, we will be building a simple Search bot that automatically opens up a web browser, 
+loads the Google page and types a term to be searched.
+Once the next page loads, it takes a screenshot and clicks on Images which then redirects 
+it to images of the term searched.
+It takes another screenshot of the new page and clicks on the first image it finds.
+It takes the final screenshot and closes the browser. Interesting isn’t it?
+
+Create a folder named GoogleSearchBot.
+Open that folder in VSCode and create a file named simple.js. 
+Now, install a new Nodejs project with node init -y and then 
+install the playwright library with npm i playwright.
+
+For those of you who are curious to know what this playwright library is and what does it do, 
+playwright is basically a Node.js library to automate Chromium, Firefox and WebKit
+with a single API. 
+It is built to enable cross-browser web automation that is ever-green, capable, 
+reliable and fast.
+
+You can find more about Playwright at https://github.com/microsoft/playwright. 
+Some of the alternatives are Puppeteer or Selenium.
+
+For the async/await feature to operate properly, 
+you need to have a minimum version of 8 for Nodejs.
+Before getting started with automation and bot creation, 
+you are expected to have some basic knowledge of Chrome DevTools provided by Google Chrome.
+It would make the tasks a lot easier. 
+When you load a webpage, right click and select Inspect option, 
+the DevTools window appears. The section of the webpage which you want to automate, 
+always has a unique element. You need to look for that unique element. 
+It can be done by opening DevTools and selecting the section of the page you want 
+to automate which would then highlight the respective HTML code under 
+the Elements tab of the Inspect window. 
+You need to find the unique element in that part of the code.
+
+Let’s run the code by typing node simple.js. 
+Once your code starts running, 
+the Search bot gets activated and starts doing all the tasks provided in the code. 
+The screenshots which it takes are automatically stored in 
+your GoogleSearchBot folder.
