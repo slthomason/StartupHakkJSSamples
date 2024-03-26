@@ -1,0 +1,22 @@
+Alright So, we will be designing an Instagram Like Bot 
+that automatically logs in to your Instagram account
+ via your email and password and randomly 
+ likes the posts and comments that appear on your feed.
+
+By now, you all must be knowing the starter pack for any Nodejs project: 
+Create a folder named InstaLikeBot
+→ Open VSCode 
+→ Open the InstaLikeBot folder
+→ Create a file named instagram.js 
+→ Open the terminal window and type npm init -y
+→ Install the playwright library and dotenv package by typing npm install dotenv playwright 
+→ Get started with the code.
+
+Here, we would be making use of Environment Variables. 
+So, install the dotenv package to create a virtual environment 
+for your project by typing npm install dotenv.
+Now, create a file named .env to store the 
+confidential information such as username, email, password, etc.
+
+
+And we’re done! Now let’s run the project by typing node instagram.js
